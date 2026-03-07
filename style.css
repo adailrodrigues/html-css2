@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgb(152, 33, 172), rgb(223, 59, 182));
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: white;
+    height: 130px;
+    margin: 0px;
+    padding: 0%;
+       background-image: linear-gradient(to left, blue, red);
+}
+ header > nav  {
+    background-color: rgb(86, 86, 86);
+    background-image: linear-gradient(to left, blue, red);
+    
+    
+}
+
+main > article > p{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    
+
+}
+
+main > article{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
